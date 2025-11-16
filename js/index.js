@@ -68,7 +68,7 @@ const typed = new Typed(".multipletext", {
 const contactForm = document.querySelector(".contact form")
 contactForm.addEventListener("submit", function(e) {
     e.preventDefault();
-    alert("Contact at the given email address give above");
+    alert("Contact at the given email address above");
 })
 
 
