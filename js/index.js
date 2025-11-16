@@ -53,7 +53,7 @@ ScrollReveal({
 ScrollReveal().reveal(".home-content, heading", { origin: "top" });
 ScrollReveal().reveal(".home-img, .services, .portflio-box, .contact form", { delay: 500 });
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+ScrollReveal().reveal(".home-content p, .about-content", { origin: "bottom" });
 
 
 const typed = new Typed(".multipletext", {
@@ -63,7 +63,6 @@ const typed = new Typed(".multipletext", {
     backDelay: 1000,
     loop: true,
 });
-
 
 const contactForm = document.querySelector(".contact form")
 contactForm.addEventListener("submit", function(e) {
