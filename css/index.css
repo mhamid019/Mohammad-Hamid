@@ -163,6 +163,7 @@ span {color: var(--main-color)}
     background: var(--bg-color);
     color: var(--snd-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .about-content {margin-left: 2rem;}
