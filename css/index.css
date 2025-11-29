@@ -79,10 +79,10 @@ section {min-height: 100vh; padding: 10rem 9% 2rem;}
 }
 
 .navbar a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--text-color);
     margin-left: 4rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar a:hover, .navbar a.active {
@@ -117,7 +117,7 @@ span {color: var(--main-color)}
 .home-content p {font-size: 1.6rem;}
 
 .home-content h1 {
-    font-size: 5.6rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 1.3;
 }
