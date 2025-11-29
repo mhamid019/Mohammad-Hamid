@@ -266,6 +266,7 @@ span {color: var(--main-color)}
     color: #ddd;
     font-weight: 600;
     transition: 0.2s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .p-btn.active {background: var(--main-color); color: var(--bg-color);}
