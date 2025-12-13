@@ -100,18 +100,25 @@ $(document).ready(function () {
             $(".portfolio-container .all").fadeOut();
             $(".portfolio-container .js").fadeIn();
         }
+
+        if ($(this).text() === "React") {
+            $(".portfolio-container .all").fadeOut();
+            $(".portfolio-container .react").fadeIn();
+        }
     })
 
     $(window).scroll(function(e) {
         if($(window).scrollTop() > 300) {
             $("footer #top").css({
                 "opacity" : "1", 
-                "pointer-events" : "auto"
+                "pointer-events" : "auto",
+                "bottom" : "1.5rem"
             });
         } else {
             $("footer #top").css({
                 "opacity" : "0",
-                "pointer-events" : "none"
+                "pointer-events" : "none",
+                "bottom" : "10rem"
             });
         }
     })
