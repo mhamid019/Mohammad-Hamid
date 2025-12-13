@@ -384,9 +384,9 @@ span {color: var(--main-color)}
     display: inline-block;
     background: var(--main-color);
     position: fixed;
-    bottom: 1.5rem;
+    bottom: 10rem;
     right: 2rem;
-    transition: 0.4s;
+    transition: 0.4s ease;
     opacity: 0;
     pointer-events: none;
     display: flex;
@@ -400,7 +400,6 @@ span {color: var(--main-color)}
     font-size: 1.8rem;
     color: var(--snd-bg-color);
 }
-
 
 
 /******************************* break points **********************************/
