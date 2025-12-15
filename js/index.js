@@ -70,6 +70,7 @@ const contactForm = document.querySelector(".contact form");
 if (contactForm) {
   contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
+    
     const fname = e.target.querySelector("#fname");
 
     alert(`Hello ${fname.value}, Contact at the given email address above!`);
