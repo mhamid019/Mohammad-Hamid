@@ -66,7 +66,7 @@ const typed = new Typed(".multipletext", {
 
 
 const contactForm = document.querySelector(".contact form");
-const aboutSection = document.querySelector("#about");
+const aboutSection = document.querySelector("#about-email");
 
 if (contactForm && aboutSection) {
   contactForm.addEventListener("submit", function (e) {
