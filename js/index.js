@@ -66,19 +66,24 @@ const typed = new Typed(".multipletext", {
 
 
 const contactForm = document.querySelector(".contact form");
+const aboutSection = document.querySelector("#about");
 
-if (contactForm) {
+if (contactForm && aboutSection) {
   contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
-    
+
     const fname = e.target.querySelector("#fname");
 
     alert(`Hello ${fname.value}, Contact at the given email address above!`);
 
+    // Clear all inputs
     e.target.reset();
-    fname.focus();
+
+    // Scroll to About section
+    aboutSection.scrollIntoView({ behavior: "smooth" });
   });
 }
+
 
 
 
