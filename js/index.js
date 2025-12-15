@@ -64,11 +64,22 @@ const typed = new Typed(".multipletext", {
     loop: true,
 });
 
-const contactForm = document.querySelector(".contact form")
-contactForm.addEventListener("submit", function(e) {
+
+const contactForm = document.querySelector(".contact form");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Contact at the given email address above");
-})
+    const fname = e.target.querySelector("#fname");
+
+    alert(`Hello ${fname.value}, Contact at the given email address above!`);
+
+    e.target.reset();
+    fname.focus();
+  });
+}
+
+
 
 
 $(document).ready(function () {
